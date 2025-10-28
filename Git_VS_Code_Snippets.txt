@@ -1,0 +1,11 @@
+PS C:\Sangram Git Repo\Python Methods> git remote -v
+origin  https://github.com/ST-Analytics/Cleaning-Data-In-Python.git (fetch) --- this is mentioning the current repo I am linked towards
+origin  https://github.com/ST-Analytics/Cleaning-Data-In-Python.git (push)
+PS C:\Sangram Git Repo\Python Methods> git rev-parse --show-toplevel        --- this is mentioning the absolute path of the local repo
+C:/Sangram Git Repo
+PS C:\Sangram Git Repo\Python Methods> 
+
+
+git remote -v: This command lists the remote repositories configured for your local repository, including their URLs.
+git rev-parse --show-toplevel: This command outputs the absolute path to the root directory of the current Git repository.
+
